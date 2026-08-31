@@ -327,7 +327,7 @@ details[open] summary::after {
     flex-wrap: wrap;
     gap: 24px;
     justify-content: center;
-    align-items: stretch;
+    align-items: start;
     margin-top: 36px;
 }
 
@@ -339,6 +339,7 @@ details[open] summary::after {
     padding: 24px;
     border-radius: var(--raio);
     width: 260px;
+    min-height: 280px;
     position: relative;
     align-items: center;
     text-align: center;
